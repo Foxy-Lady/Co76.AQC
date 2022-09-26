@@ -1,0 +1,128 @@
+body{
+    background: white;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+     nav{
+         background: white;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         height: 5vh;
+     } 
+    .logo{
+        color: #431b5e;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 20px;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+    }
+    .nav-links li{
+        list-style: none;
+        float: left;
+        margin-right: 20px;
+        position: relative;
+    }
+    .nav-links a{
+        color: black;
+        text-decoration: none;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-size: 16px;
+        margin: 0 7px;
+        line-height: 70px;
+    }
+    .burger div{
+        width: 25px;
+        height: 3px;
+        background-color: #431b5e;
+        margin: 5px;
+    } 
+    .container{
+        position: relative;
+        width: 100%; 
+        margin: -10px;
+     }
+    .container .box{
+        position: relative;
+        width: calc(350px - 0px);
+        float: left;
+        margin-left: 30px;
+        margin-right: 60px;
+        margin: 20px;
+        margin-top: -15px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .box-list li{
+        display: flex;
+        text-decoration: none;
+    }
+    .box-list a{
+        color: white;
+        list-style: none;
+        padding: 10px;
+        margin-left: 15px;
+        font-size: 16px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    .box h3{
+        text-align: center;
+        border: 15px;
+        margin-bottom: 15px;
+        color: rgb(71, 68, 68);
+    
+    }
+       * {box-sizing: border-box}
+       
+       /* Set height of body and the document to 100% */
+       body, html {
+         height: 100%;
+         margin: 0;
+       }
+       
+       /* Style tab links */
+       .tablink {
+         background-color: #555;
+         color: white;
+         float: left;
+         border: none;
+         outline: none;
+         cursor: pointer;
+         padding: 14px 16px;
+         font-size: 17px;
+         width: 20%;
+       }
+       
+       .tablink:hover {
+         background-color: #777;
+       }
+       
+       /* Style the tab content (and add height:100% for full page content) */
+       .tabcontent {
+         color: white;
+         display: none;
+         padding: 100px 20px;
+         height: 100%;
+       }
+       
+       #ADMINISTRATION {background-color: slateblue;}
+       #EMPLOYEES {background-color: lightsalmon;}
+       #CONSUMERS {background-color: teal}
+       #MANAGEMENT{background-color: indianred;}
+       #CARE {background-color: orange;}
+
+

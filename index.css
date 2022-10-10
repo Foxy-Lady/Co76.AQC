@@ -71,11 +71,11 @@ body{
         text-decoration: none;
     }
     .box-list a{
-        color: black;
+        color: white;
         list-style: none;
         padding: 10px;
         margin-left: 15px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: normal;
         text-decoration: none;
     }
@@ -90,7 +90,7 @@ body{
        
        /* Set height of body and the document to 100% */
        body, html {
-         height: 100%;
+         width: 100%;
          margin: 0;
        }
        
